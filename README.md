@@ -1,4 +1,4 @@
-# Estudos de Python 
+# Estudos de Python
 
 Este repositório foi criado para armazenar e organizar todos os meus códigos, exercícios e projetos práticos desenvolvidos durante a minha jornada de aprendizado em Python.
 
@@ -9,8 +9,9 @@ O conteúdo está organizado da seguinte forma:
 - **Exercícios Complementares:** Desafios personalizados gerados com o suporte de Inteligência Artificial para fixação de conceitos.
 
 ## Tecnologias e Ferramentas
+
 - **Linguagem Principal:** Python 3.x
-- **Ambiente de Desenvolvimento:** VS Code (Visual Studio Code) e Editor sublime
+- **Ambiente de Desenvolvimento:** VS Code (Visual Studio Code) e Editor Sublime.
 - **Controle de Versão:** Git e GitHub
 
 ## Como Executar os Projetos
