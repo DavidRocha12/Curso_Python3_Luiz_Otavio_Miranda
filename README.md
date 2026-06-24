@@ -17,14 +17,5 @@ O conteúdo está organizado da seguinte forma:
 
 Para rodar qualquer um dos scripts localmente, certifique-se de ter o Python instalado e execute no terminal:
 
-Linux:
-
 ```bash
 python nome_do_arquivo.py
-
-Windows:
-
-```bash
-python3 nome_do_arquivo.py
-
-windows
