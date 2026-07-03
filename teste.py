@@ -1,9 +1,15 @@
-string = '1000' #– Este valor é imutável, você não consegue mudar ele
+""" while/else """
+string = 'Valorqualquer'
 
-outra_variavel = f'{string[:3]}ABC{string[4:]}' # é possível modificar criando outra variável
+i = 0
+while i < len(string):
+    letra = string[i]
 
-print(string)
+    if letra == ' ':
+        break
 
-print(outra_variavel)
-
-print(string.zfill(10))# - .zfill() é um método da string, ele coloca o total de caracteres nesse caso com 10 caracteres, como .upper(), .lower(), .isnumeric() etc …
+    print(letra)
+    i += 1
+else:
+    print('Não encontrei um espaço na string.')
+print('Fora do while.')
