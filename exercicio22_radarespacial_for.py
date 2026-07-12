@@ -40,3 +40,20 @@ em uma única condição (ex: if setor == 4 or setor == 9:).
 As instruções continue e break devem ficar dentro dos seus respectivos blocos 
 condicionais, logo abaixo do print de aviso.
 """
+print("Radar Espacial")
+
+print()
+
+for nave in range(1, 13):
+    if nave == 4 or nave == 9:
+        print(f"Setor {nave}: Tempestade solar detectada. Pulando...")
+        continue
+    elif nave == 11:
+        print(f"Setor {nave}: BURACO NEGRO DETECTADO! Abortando varredura...")
+        break
+    else:
+        print(f"Setor {nave}: Escaneado e seguro")
+
+print()
+
+print("Varredura encerrada!")
