@@ -1,5 +1,5 @@
 """
-Operação ternária (condoicional de uma linha)
+Operação ternária (condicional de uma linha)
 <valor> if <condição> else <outro valor>
 """
 

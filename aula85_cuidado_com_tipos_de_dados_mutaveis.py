@@ -10,8 +10,8 @@ nome = "Luiz"
 print(nome)# Aqui o valor é imutável, mas se você apontar
 # outro item para essa variável, este ultimo item é o que
 # vai estar no lugar, ele sobreescreve o item na variável
-# Para utiçizar o valor acima é necessário utilizar outra
-# variável guarda o valor na memória
+# Para utilizar o valor acima é necessário utilizar outra
+# variável e guardar o valor na memória.
 print(outro_nome)
 
 # resultado:
@@ -28,7 +28,7 @@ e sim com a própria lista, o id delas são as mesmas na memória.
 """
 
 lista_a = ["Luiz", "Maria"]
-lista_b = lista_a.copy()# aqui voCê está coopiando a lista para outra váriável, assim ela vai estr em outro endereço na memória.
+lista_b = lista_a.copy()# aqui você está copiando a lista para outra váriável, assim ela vai estr em outro endereço na memória.
 lista_a[0] = "David"
 print(lista_a)
 print(lista_b)

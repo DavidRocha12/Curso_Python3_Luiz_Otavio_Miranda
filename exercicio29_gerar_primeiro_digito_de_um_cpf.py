@@ -44,19 +44,19 @@ separar_nove_numeros = juntar_numeros.split("-")
 
 juntar_tudo = "".join(separar_nove_numeros)
 
+print(juntar_tudo)
+
+junto = juntar_tudo[:9]
 cont = 10
 soma = 0
-for i, item in enumerate(juntar_tudo):
-    if i <= 8:
-        mult = cont * int(item)
-        cont -= 1
-        soma = soma + mult
+for item in junto:
+    mult = int(item) * cont
+    print(cont)
+    cont -= 1
+    soma += mult
 
-mult_10 = soma * 10
-resto = mult_10 % 11
+mult_1 = soma * 10
 
-if resto > 9:
-    resto = 0
-    
-print(f"O primeiro digito do CPF é {resto}")
+primeiro_digito = mult_1 % 11
 
+print(f"O primeiro Digito do CPF é {primeiro_digito if primeiro_digito <= 9 else 0}")
