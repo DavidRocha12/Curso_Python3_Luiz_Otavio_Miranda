@@ -20,12 +20,15 @@ escopo()
 
 def escopo_2():
 	x = 1
+	breakpoint()
 	def outra_funcao():
 		y = 2
 		print(x, y)
+		breakpoint()
 	# aqui eu consigo acessar o x, mas não consigo acessar o y da função
 	# interna
 	outra_funcao()
+	breakpoint()
 	print(x)
 
 
