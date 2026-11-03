@@ -13,7 +13,7 @@ import copy
 
 pessoa = {
     "nome" : "David",
-    "sobrenome" : "Edison da Rocha"
+    "sobrenome" : "Rocha"
 }
 
 # O dicionário também tem o método copy e também é um método mutável,
